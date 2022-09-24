@@ -433,6 +433,9 @@ a {
 .hero-btn:hover {
   color: #FC3867;
 }
+.hero-btn > a {
+  color: white;
+}
 
 .hero {
   position: relative;
