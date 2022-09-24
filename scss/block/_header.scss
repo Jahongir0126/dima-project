@@ -1,0 +1,47 @@
+.my_navbar ,body{
+    position: relative;
+    background-color: #0e0537 !important;
+}
+.my_brand{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #C4C4C4;
+    &:hover{
+        color: #FC3867;
+    }
+}
+.navbar-nav{
+    align-items: center;
+    column-gap: 50px;
+    margin-bottom: 60px;
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color:  #C4C4C4;
+    &:hover{
+        color: #FC3867;
+    }
+
+}
+.my_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+    width: 156px;
+    height: 56px;
+    border-radius: 87px;
+    border-color: white;
+    &:hover{
+        color: #FC3867;
+    }
+    &:active{
+        color: crimson;
+    }
+}
